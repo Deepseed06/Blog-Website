@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  :root {
+    --container-color: #69ade1;
+    --second-color: #3b0248;
+    --text-color: #172317;
+    --bg-color: #fff;
+  }
+  .hidden {
+    height: 650px;
+    width: 400px;
+    margin: auto;
+    position: relative;
+  }
+  .hidden .logo{
+    text-decoration: none;
+    color: var(--second-color);
+    position: absolute;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.8rem;
+    font-weight: 800;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%);
+    
+  }
+  .hidden .logo span{
+    font-size: 1.8rem;
+    
+  }
+  .container {
+    height: 500px;
+    width: 360px;
+    position: absolute;
+    margin: 70px 16px;
+    background-color: white;
+  }
+  input {
+    height: 40px;
+    width: 150px;
+    background-color: rgba(250, 235, 215, 0.486);
+    border: none;
+    margin-right: 20px;
+    padding-left: 5px;
+  }
+  #email {
+    height: 40px;
+    width: 330px;
+    margin-top: 20px;
+  }
+  #password {
+    height: 40px;
+    width: 330px;
+    margin-top: 20px;
+  }
+  #confirm {
+    height: 40px;
+    width: 330px;
+    margin-top: 20px;
+  }
+  #check {
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+  }
+  label {
+    font-size: 15px;
+  }
+  div .signup {
+    height: 15px;
+    width: 300px;
+    border-radius: 5px;
+   background: var(--second-color);
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: .2 ease;
+    align-items: center;
+  }
+  .signup:hover {
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+
+  }
+  h3 a{
+    text-decoration: none;
+  }
+  p {
+    color: var(--text-color);
+  }
+  .sign {
+    color: white;
+    padding: 25px;
+    margin-top: -25px;
+  }
+  .sign:hover {
+    color: black;
+  }
+  
+  h3 {
+    top: 82%;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    margin-left: 50px;
+  }
+  h2{
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+ h4{
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  margin-top: -100px;
+  z-index: 1000;
+  left: 46%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+ }
+ h4 a{
+  text-decoration: none
+ }
+ .signup a{
+  text-decoration: none;
+ }

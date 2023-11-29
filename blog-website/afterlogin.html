@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="blog.css" />
+  <script src="https://kit.fontawesome.com/263db0789a.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="sidebar" id="mySidebar">
+    <center>
+      <img src="/blog images/profile-2.jpg" alt="" /><br />
+      <h2>Amaechi Emeka</h2>
+    </center>
+    <br />
+    <p>My Profile</p>
+
+    <div class="search">
+      <input type="text" name="" id="" placeholder="Search Posts...">
+    </div>
+    
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-times fa-two"></i></a>
+    <span class="filter-item active-filter" data-filter="all"><i class="fa-sharp fa-solid fa-globe"></i>All</span>
+    <span class="filter-item" data-filter="travel"><i class="fa-solid fa-plane"></i>Travel</span>
+    <span class="filter-item" data-filter="tech"><i class="fa-sharp fa-solid fa-laptop"></i>Tech</span>
+    <span class="filter-item" data-filter="food"><i class="fa-solid fa-utensils"></i>Food</span>
+
+    <a href="#"><span class="filter-item"><i class="fa-solid fa-right-to-bracket"></i>LogOut</span></a>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="nav container">
+      <a href="index.html" class="logo">Deep<span>Seed</span></a>
+      <a href="login_page.html" class="login">LogOut</a>
+      <a href="#" class="openbtn" onclick="openNav()">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+      </a>
+
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-text container">
+      <h2 class="home-title">DeepSeed Blog</h2>
+      <span class="home-subtitle">Your source of great content</span>
+    </div>
+  </section>
+
+  <!-- Past-Filter -->
+
+  <div class="post-filter container">
+    <span class="filter-item active-filter" data-filter="all"><i class="fa-sharp fa-solid fa-globe"></i>All</span>
+    <span class="filter-item" data-filter="travel"><i class="fa-solid fa-plane"></i>Travel</span>
+    <span class="filter-item" data-filter="tech"><i class="fa-sharp fa-solid fa-laptop"></i>Tech</span>
+    <span class="filter-item" data-filter="food"><i class="fa-solid fa-utensils"></i>Food</span>
+  </div>
+  <!-- Posts -->
+  <section class="post container">
+    <!-- Post Box 1 -->
+    <div class="post-box food">
+     <a href="post-page.html"><img src="/food img/food1.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">food</h2>
+      <a href="post-page.html" class="post-title">
+        Learn About Dishes Of Different Kinds
+      </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-1.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <div class="post-box tech">
+      <a href="post-page.html"><img src="/tech img/tech2.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">tech</h2>
+      <a href="post-page.html" class="post-title">
+        How To Create Amazing Gadgets
+      </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-1.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <!-- Post Box 2 -->
+    <div class="post-box travel">
+      <a href="post-page.html"><img src="/travel img/travel1.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">Travel</h2>
+      <a href="post-page.html" class="post-title">
+        Get To Know The Most Exciting Places To Spend Your Vacation
+      </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-2.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <!-- Post Box 3 -->
+    <div class="post-box tech">
+      <a href="post-page.html"><img src="/tech img/tech1.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">tech</h2>
+      <a href="post-page.html" class="post-title">
+        How To Create Amazing Electronic Gadgets
+      </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-3.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <!-- Post Box 4 -->
+    <div class="post-box food">
+      <a href="post-page.html"><img src="/food img/food2.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">food</h2>
+      <a href="post-page.html" class="post-title">
+        Learn About Dishes Of Different Kinds
+      </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-1.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <!-- Post Box 5 -->
+    <div class="post-box travel">
+      <a href="post-page.html"><img src="/travel img/travel2.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">Travel</h2>
+      <a href="post-page.html" class="post-title">
+        Get To Know The Most Exciting Places To Spend Your Vacation
+      </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-2.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <div class="post-box tech">
+      <a href="post-page.html"><img src="/tech img/tech1.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">tech</h2>
+      <a href="post-page.html" class="post-title">
+        How To Create UX Design With Adobe XD
+      </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-3.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <!-- Post Box 4 -->
+    <div class="post-box food">
+      <a href="post-page.html"><img src="/food img/food2.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">food</h2>
+      <a href="post-page.html" class="post-title"> Eat And Stay Healthy </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-1.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <!-- Post Box 5 -->
+    <div class="post-box travel">
+      <a href="post-page.html"><img src="/travel img/travel5.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">Travel</h2>
+      <a href="post-page.html" class="post-title"> Travelling Tips </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-2.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <!-- Post Box 6-->
+    <div class="post-box tech">
+      <a href="post-page.html"><img src="/tech img/tech3.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">Tech</h2>
+      <a href="post-page.html" class="post-title">
+        How To Create UX Design With Adobe XD
+      </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-3.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <!-- Post BOx 7 -->
+    <div class="post-box food">
+      <a href="post-page.html"><img src="/food img/food3.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">food</h2>
+      <a href="post-page.html" class="post-title"> Eat and Stay Healthy </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-1.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <div class="post-box">
+      <a href="post-page.html"><img src="/food img/food4.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">food</h2>
+      <a href="post-page.html" class="post-title"> Eat And Stay Healthy </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-1.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <!-- Post Box 8 -->
+    <div class="post-box travel">
+      <a href="post-page.html"><img src="/travel img/travel4.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">Travel</h2>
+      <a href="post-page.html" class="post-title"> Travelling Tips 2024 </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-2.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <div class="post-box travel">
+      <a href="post-page.html"><img src="/travel img/travel1.jpg" alt="" class="post-img" /></a>
+
+      <h2 class="category">Travel</h2>
+      <a href="post-page.html" class="post-title"> Travelling Tips 2024 </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-2.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+    <!-- Post Box 3 -->
+    <div class="post-box food">
+      <a href="post-page.html"><img src="/food img/food5.jpg" alt="" class="post-img" /></a>
+      <h2 class="category">food</h2>
+      <a href="post-page.html" class="post-title"> Eat and Stay Healthy </a>
+      <span class="post-date">Feb 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit ame t consectetur adipisicing elit. Minus
+        voluptas, reiciendis debitis porro architecto reprehenderit
+        laboriosam, aliquam totam ipsa deleniti perspiciatis asperiores maxime
+        tempora maiores optio, qui placeat sed nisi.
+      </p>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="/blog images/profile-3.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Lorem Ipmsum</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer container">
+    <p>&#169; DeepSeedTech All Right Reserved</p>
+    <div class="social">
+      <a href="http://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="http://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+      <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+      <a href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </div>
+
+  <!-- JQuery Link -->
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
+
+  <!-- Link to JS -->
+  <script src="main.js"></script>
+</body>
+
+</html>
